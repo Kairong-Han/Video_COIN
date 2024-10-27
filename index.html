@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Cross-modal Observation Hypothesis Inference</title>
+<!--   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  <style>
+    #box1{ max-width:450px; max-height:450px}
+  </style>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Cross-modal Observation Hypothesis Inference</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a target="_blank">Mengze Li</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a target="_blank">Kairong Han</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    <a target="_blank">Jiahe Xu</a><sup>1</sup>,</span>
+                    <span class="author-block">
+                      <a target="_blank">Yueying Li</a><sup>1</sup>,</span>
+                      <span class="author-block">
+                      <a target="_blank">Tao Wu</a><sup>1</sup>,</span>
+                        <span class="author-block">
+                      <a target="_blank">Zhou Zhao</a><sup>1</sup>,</span>
+                      <span class="author-block">
+                      <a target="_blank">Jiaxu Miao</a><sup>2</sup>,</span>
+                      <span class="author-block">
+                      <a target="_blank">Shengyu Zhang</a><sup>1</sup>,</span>
+                      <span class="author-block">
+                      <a target="_blank">Jingyuan Chen</a><sup>1</sup></span>
+                    </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup> Zhejiang University &nbsp;&nbsp;&nbsp;
+                      <sup>2</sup> Sun Yat-sen University &nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/Kairong-Han/Video_CORE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://openreview.net/forum?id=jTPIH2kN1B" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <!-- <i class="ai ai-arxiv"></i> -->
+                    <i class="ai ai-open-materials"></i>
+                  </span>
+                  <span>OpenReview</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Hypothesis inference, a sophisticated cognitive process that allows humans to construct plausible explanations for incomplete observations, is paramount to our ability to make sense of the world around us. Despite the universality of this skill, it remains under-explored within the context of multi-modal AI, which necessitates analyzing
+  observation, recalling information in the mind, and generating explanations. In this work, we propose the <b><u>C</u></b>ross-modal <b><u>O</u></b>bservation hypothes<b><u>I</u></b>s i<b><u>N</u></b>ferencetask (<b><u>COIN</u></b>). Given a textual description of a partially observed event, COIN strives to recall the most probable event from the 
+  visual mind (videopool), and infer the subsequent action flow connecting the visual mind event and the observed textural event. To advance the development of this field, we propose alarge-scaletext-videodataset, Tex-COIN, that contains 39,796 meticulously annotated hypothesis inference examples and auxiliary commonsense knowledge (appearance, 
+  clothing, action, etc.) for key video characters. Based on the proposed Tex-COIN dataset, we design a strong baseline, COINNet, which features two perspectives: 1) aligning temporally displaced textual observations with target videos via transformer-based multi-tasklearning, and 2) inferring the action flow with non-parametric graph-based inference 
+  grounded in graph theory. Extensive experiments on the Tex-COIN dataset validate the effectiveness of our COINNet by significantly outperforming the state-of-the-arts. The code is available, and the dataset will be released for further exploration.
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Intro Fig -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/introduction.png" alt="Introduction Figure"/>
+          <h2 class="is-justify-content-left">
+            An example of out COIN task, which aims to explain the observation by retrieving the target video (containing a video clip in which the target character cooks in an oven) and inferring the subsequent action flow.
+            </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Intro Fig -->
+
+<!-- Dataset -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Dataset Curation</h2>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/dataset.png" alt="Dataset Figure"/>
+          <h2 class="is-justify-content-left">
+            A diagram of the dataset constrcution pipeline.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Dataset -->
+
+
+<!-- Method -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Method</h2>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/method.png" alt="Method Figure"/>
+          <h2 class="is-justify-content-left">
+            The diagram of our proposed COINNet for the COINtask, which consists of three steps. Step 1: The <b>Knowledge-guided Cross-modal Alignment module</b> extracts the cross-modal feature and predicts the commonsense knowledge. Step 2: The <b>Graph-based Non-parametric Reasoning module</b>  
+            constructs the action graph based on action memory and predicts the action flow between the video action and the textual action. Step 3: The <b>Inference Path Review module</b> re-checks the predicted action flow and predicts the matching score between the video and the text observation.
+            </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Method -->
+
+<!-- Result -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Qualitative Result</h2>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/case_figure.png" alt="Case Figure"/>
+          <h2 class="is-justify-content-left">
+            In the shown case, the complete event process is: The woman cooked in the kitchen. &rarr; She ate the food. &rarr; She cleaned the kitchen waste. &rarr; She picked up, held, and threw the food waste. It can be observed our strong baseline, COINNet, precisely 
+            predicts the target video and the action flow, and reasons out all commonsense knowledge correctly, proving the reasonable design of our COINNet.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Result -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
